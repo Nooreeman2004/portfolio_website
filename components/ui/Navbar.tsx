@@ -33,7 +33,7 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
             className="text-lg font-bold cursor-pointer"
             onClick={() => scrollToSection('home')}
           >
-            <span className="gradient-text">Zulqarnain Ali</span>
+            <span className="gradient-text">Abdullah Aamir</span>
           </div>
 
           {/* Right Side: Contact & Download CV */}

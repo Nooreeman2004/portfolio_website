@@ -1,5 +1,3 @@
-'use client'
-
 import PageLayout from '@/components/PageLayout'
 import Hero from '@/components/ui/Hero'
 import About from '@/components/ui/About'
@@ -7,6 +5,7 @@ import Experience from '@/components/ui/Experience'
 import Skills from '@/components/ui/Skills'
 import Projects from '@/components/ui/Projects'
 import Contact from '@/components/ui/Contact'
+import Certifications from '@/components/ui/Certifications'
 
 export default function HomePage() {
   return (
@@ -25,6 +24,9 @@ export default function HomePage() {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="certifications">
+        <Certifications />
       </div>
       <div id="contact">
         <Contact />

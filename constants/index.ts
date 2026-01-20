@@ -22,10 +22,6 @@ export const technologies = [
     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg',
   },
   {
-    name: 'Java',
-    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg',
-  },
-  {
     name: 'C++',
     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg',
   },
@@ -76,31 +72,6 @@ export const experiences = [
       'Conducted market research and product identification to align offerings with client needs and industry demand.',
       'Developed and delivered high-impact product pitches, resulting in multiple strategic collaborations.',
       'Built the brand identity and digital marketing framework, optimizing content and social media strategies for growth.',
-    ],
-  },
-  {
-    title: 'Planning Specialist',
-    companyName: 'The Project Suicide (TPS)',
-    icon: '/assets/seath.svg', // Placeholder icon
-    iconBg: '#050816',
-    date: 'Oct 2025 – Present',
-    points: [
-      'Designed and maintained program roadmaps and milestone strategies for suicide awareness initiatives.',
-      'Aligned localized ambassador plans with TPS’s global SDG 3.4.2 mental health goals.',
-      'Tracked reporting progress and adjusted strategic plans for nationwide student-led campaigns.',
-      'Ensured timely delivery of all planning-related outputs across multidisciplinary volunteer teams.',
-    ],
-  },
-  {
-    title: 'Lead Developer & AI Research Specialist',
-    companyName: 'RAAMP — Autonomous Marketing Platform',
-    icon: '/assets/shipd.svg', // Placeholder icon
-    iconBg: '#050816',
-    date: 'Aug 2025 – Present',
-    points: [
-      'Architected B2B platform leveraging causal AI, Bayesian analytics, and generative AI.',
-      'Developed Geo-Intent Engine, Creative Studio, Trend Arbitrage Detector, and Churn Risk Detector.',
-      'Implemented real-time trend detection and analytics dashboards, projecting 25% ROI increase.',
     ],
   },
   {
@@ -159,19 +130,31 @@ export const education = [
 // Projects
 export const projects = [
   {
-    title: 'Analytics Assistant Chatbot',
+    title: 'RAAMP — Autonomous Marketing Platform',
+    description: 'Architected a multi-engine platform combining causal AI and trend forecasting. Built engines for Geo-Intent Prediction, Creative Intelligence, and Churn Detection. Developed APIs and ROAS dashboards enabling automated campaign insights.',
+    tags: [
+      { name: 'Causal AI', color: 'blue-text-gradient' },
+      { name: 'Trend Forecasting', color: 'green-text-gradient' },
+      { name: 'Geo-Intent', color: 'pink-text-gradient' },
+    ],
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80', // Analytics/Dashboard related
+    githubLink: 'https://github.com/abdullahaamir197',
+  },
+  {
+    title: 'Analytics Assistant Chatbot — Fetii Partnership (US)',
     description: 'Engineered a schema-aware NL-to-SQL assistant for Fetii’s structured ride-sharing datasets. Delivered precise, schema-aligned analytics to support operational decision-making.',
     tags: [
       { name: 'Generative AI', color: 'blue-text-gradient' },
       { name: 'NL-SQL', color: 'green-text-gradient' },
-      { name: 'LangChain', color: 'pink-text-gradient' },
+      { name: 'Pinecone', color: 'pink-text-gradient' },
+      { name: 'LangChain', color: 'orange-text-gradient' },
     ],
     image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&q=80', // Chatbot/AI related
     githubLink: 'https://github.com/abdullahaamir197',
   },
   {
-    title: 'AI-Powered Solar Energy Consultant',
-    description: 'Developed an AI-powered consultation platform for solar sizing, ROI analysis, and proposal generation using MCP and Agentic tools. Integrated localized, Pakistan-specific datasets.',
+    title: 'AI-Powered Solar Energy Consultant — SkyElectric Partnership',
+    description: 'Developed an AI-powered consultation platform for solar sizing, ROI analysis, and proposal generation using MCP and Agentic tools. Integrated localized, Pakistan-specific datasets for precise and contextual energy recommendations.',
     tags: [
       { name: 'MCP', color: 'blue-text-gradient' },
       { name: 'Generative AI', color: 'green-text-gradient' },
@@ -187,6 +170,7 @@ export const projects = [
       { name: 'MLflow', color: 'blue-text-gradient' },
       { name: 'FastAPI', color: 'green-text-gradient' },
       { name: 'Docker', color: 'pink-text-gradient' },
+      { name: 'AWS', color: 'orange-text-gradient' },
     ],
     image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&q=80', // Movie/Cinema related
     githubLink: 'https://github.com/abdullahaamir197',
@@ -204,6 +188,11 @@ export const awards: any[] = []
 
 // Certifications
 export const certifications = [
+  {
+    title: 'Digital Marketing Fundamentals',
+    issuer: 'Google',
+    link: '#',
+  },
   {
     title: 'AWS Cloud Practitioner',
     issuer: 'Amazon Web Services',
@@ -227,6 +216,11 @@ export const certifications = [
   {
     title: 'AI for Everyone',
     issuer: 'DeepLearning.AI',
+    link: '#',
+  },
+  {
+    title: 'Marketing Analytics',
+    issuer: 'Coursera',
     link: '#',
   },
 ]

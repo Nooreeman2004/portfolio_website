@@ -47,11 +47,10 @@ export default function TopNavigation() {
     <>
       {/* Top Navigation Bar */}
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
             ? 'bg-primary/95 backdrop-blur-md border-b border-secondary/20 py-3'
             : 'bg-transparent py-5'
-        }`}
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
@@ -67,7 +66,7 @@ export default function TopNavigation() {
                 }}
                 className="text-xl font-bold text-white tracking-wide hover:text-secondary transition-colors"
               >
-                ZULQARNAIN
+                ABDULLAH
               </Link>
             </div>
 
@@ -87,11 +86,10 @@ export default function TopNavigation() {
                         handleNavigate(route.path, direction)
                       }
                     }}
-                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
-                      isActive
+                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isActive
                         ? 'text-white bg-secondary/20 border border-secondary/40'
                         : 'text-secondary hover:text-white hover:bg-tertiary/50'
-                    }`}
+                      }`}
                   >
                     {route.label}
                   </Link>
@@ -157,11 +155,10 @@ export default function TopNavigation() {
                         setIsMobileMenuOpen(false)
                       }
                     }}
-                    className={`px-4 py-4 rounded-lg text-lg font-medium transition-all duration-300 ${
-                      isActive
+                    className={`px-4 py-4 rounded-lg text-lg font-medium transition-all duration-300 ${isActive
                         ? 'text-white bg-secondary/30 border border-secondary/50'
                         : 'text-secondary hover:text-white hover:bg-tertiary/70'
-                    }`}
+                      }`}
                   >
                     {route.label}
                   </Link>

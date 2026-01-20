@@ -4,9 +4,7 @@ export const ROUTES = [
   { path: '/experience', label: 'Experience', section: 'experience' },
   { path: '/skills', label: 'Skills', section: 'skills' },
   { path: '/projects', label: 'Projects', section: 'projects' },
-  { path: '/research', label: 'Research', section: 'research' },
-  { path: '/awards', label: 'Awards', section: 'awards' },
-  { path: '/community', label: 'Community', section: 'community' },
+  { path: '/certifications', label: 'Certifications', section: 'certifications' },
   { path: '/contact', label: 'Contact', section: 'contact' },
 ] as const
 
