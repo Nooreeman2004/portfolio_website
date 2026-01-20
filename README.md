@@ -1,4 +1,4 @@
-# Zulqarnain Ali - Portfolio
+#- Portfolio
 
 A stunning 3D interactive portfolio website showcasing the work of Zulqarnain Ali, a Machine Learning Engineer & AI Researcher.
 
